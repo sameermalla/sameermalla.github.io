@@ -17,9 +17,9 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
-d3.csv("earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv?$select=mag", type, function(error, magdata))
+d3.csv("earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv", type, function(error, magdata))
 {
-console.log('I like this')
+console.log(magdata.length)
 
 }
 //var width = 420,
