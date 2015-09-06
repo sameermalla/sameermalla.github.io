@@ -17,15 +17,23 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
-d3.csv("earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv", type, function(error, magdata))
-{
+var data = [4, 8, 15, 16, 23, 42];
 
-}
+var x = d3.scale.linear()
+    .domain([0, d3.max(data)])
+    .range([0, 420]);
 
-function type(d) {
-  d.value = +d.value; // coerce to number
-  return d;
-}
+d3.select(".chart")
+  .selectAll("div")
+    .data(data)
+  .enter().append("div")
+    .style("width", function(d) { return x(d) + "px"; })
+    .text(function(d) { return d; });
+
+//d3.csv("earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv", type, function(error, magdata))
+//{
+
+//}
 
 </script>
 
