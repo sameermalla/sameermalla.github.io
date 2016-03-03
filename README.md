@@ -6,12 +6,12 @@ There are two files for the Homework 5 assignment:
 * The HTML of the HW5 assignment
 
 Three countries in the Americas (North and South America) are selected and shown in red
-* Peru
-* Paraguay
-* Cuba
+* Mexico
+* Brazil
+* Argentia
 Three countries in Europe are selected and shown in blue
 * Spain
-* Switzerland
+* Germany
 * Croatia
 
 Popups, when clicked on any of these six countries, show the name and the population of the said country
