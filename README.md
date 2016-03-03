@@ -9,6 +9,7 @@ Three countries in the Americas (North and South America) are selected and shown
 * Mexico
 * Brazil
 * Argentia
+
 Three countries in Europe are selected and shown in blue
 * Spain
 * Germany
