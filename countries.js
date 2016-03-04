@@ -25,7 +25,7 @@ var countries = {
             , "id": "ESP"
             , "properties": {
                 "name": "Spain"
-                , "pop": "47,892,325"
+                , "pop": "47,892,350"
                 , "style": {
                     weight: 2
                     , color: "#999"
@@ -44,7 +44,7 @@ var countries = {
             , "id": "HRV"
             , "properties": {
                 "name": "Croatia"
-                , "pop": "4,254,084"
+                , "pop": "4,254,100"
                 , "style": {
                     weight: 2
                     , color: "#999"
@@ -60,7 +60,7 @@ var countries = {
         },
 		
         {"type": "Feature","id": "BRA",	"properties":
-			{"name":"Brazil", "pop": "208,225,755", "style": 
+			{"name":"Brazil", "pop": "208,225,800", "style": 
 				{weight: 2, color: "#999", opacity: 1, fillColor: "#ff0000", fillOpacity: 0.8
 				}
 			}
@@ -70,7 +70,7 @@ var countries = {
 		},
 		
         {"type":"Feature","id": "ARG","properties": 
-			{"name":"Argentina", "pop": "42,854,084", "style": 
+			{"name":"Argentina", "pop": "42,854,100", "style": 
 				{weight: 2, color: "#999", opacity: 1, fillColor: "#ff0000", fillOpacity: 0.8
 				}
 			}
@@ -80,7 +80,7 @@ var countries = {
 		},
 		
         {"type": "Feature","id": "MEX", "properties": 
-			{"name": "Mexico", "pop": "126,497,340", "style": 
+			{"name": "Mexico", "pop": "126,497,400", "style": 
 				{weight: 2, color: "#999", opacity: 1, fillColor: "#ff0000", fillOpacity: 0.8
 				}	
 			}
