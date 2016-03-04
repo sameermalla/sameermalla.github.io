@@ -15,4 +15,4 @@ Three countries in Europe are selected and shown in blue
 * Germany
 * Croatia
 
-Popups, when clicked on any of these six countries, show the name and the population of the said country
+Popups, when clicked on any of these six countries, show the name and the population of the said country on the map
